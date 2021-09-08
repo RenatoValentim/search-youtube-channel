@@ -1,6 +1,6 @@
 import sys
 
-from youtube.colors import BLUE, GREEN, ORANGE, PURPLE, RED, WHITE
+from utils.colors import BLUE, GREEN, ORANGE, PURPLE, RED, WHITE
 from youtube.search import search_channels_by_keywords
 
 
