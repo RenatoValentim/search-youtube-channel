@@ -24,7 +24,7 @@ def search(keyword: str) -> List[Dict]:
             continue
 
         if 'videoRenderer' in content:
-            # TODO: Aqui teria um tratamento o renderer de vídeo
+            # TODO: Aqui teria um tratamento do renderer de vídeo
             renderers.append(None)
 
     return renderers
