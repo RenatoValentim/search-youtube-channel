@@ -11,7 +11,7 @@ Este sistema pesquisa por canais no [youtube](https://www.youtube.com/) e coleta
 > Requerimentos
 
 - Antes de executar o projeto instale os pré-requisitos
-1. [python 3](https://www.python.org/downloads/)
+1. [python 3@3.8.10](https://www.python.org/downloads/)
 2. [pip](https://docs.python.org/3/installing/index.html#pip-not-installed)
 
 > Iniciando o ambiente
@@ -20,6 +20,7 @@ Este sistema pesquisa por canais no [youtube](https://www.youtube.com/) e coleta
   ```zsh
   pip install -r requirements.txt
   ````
+	![](assets/pip_install.gif)
 > Executando um busca
 
 ## Execução
@@ -27,3 +28,7 @@ Este sistema pesquisa por canais no [youtube](https://www.youtube.com/) e coleta
 	```zsh
 	python main.py 'TEXTO_DE_BUSCA'
 	```
+	![](assets/main_exec_1.gif)
+	![](assets/main_exec_4.gif)
+	![](assets/main_exec_2.gif)
+	![](assets/main_exec_3.gif)
