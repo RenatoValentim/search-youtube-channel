@@ -21,8 +21,7 @@ def main():
         print(f'{GREEN}Descrição: {WHITE}{channel.description}')
         print(f'{GREEN}URL do canal: {BLUE}{channel.url}')
         print(f'{GREEN}Palavra usada na pesquisa: {WHITE}{channel.query}')
-        print(
-            f'{GREEN}Image do Perfil em base64: {PURPLE}{channel.base64_img[:10]}...')
+        print(f'{GREEN}Image do Perfil em base64: {PURPLE}{channel.base64_img[:10]}...')
         print(f'{ORANGE}#######################################################################')
 
 
