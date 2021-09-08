@@ -11,7 +11,7 @@ Este sistema pesquisa por canais no [youtube](https://www.youtube.com/) e coleta
 > Requerimentos
 
 - Antes de executar o projeto instale os pré-requisitos
-1. [python 3@3.8.10](https://www.python.org/downloads/)
+1. [python@3.8.10](https://www.python.org/downloads/)
 2. [pip](https://docs.python.org/3/installing/index.html#pip-not-installed)
 
 > Iniciando o ambiente
