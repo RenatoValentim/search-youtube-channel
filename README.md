@@ -1,7 +1,6 @@
 # Search Youtube Channel
 
 ![](assets/main_exec_1.gif)
-![](assets/main_exec_2.gif)
 
 Este sistema pesquisa por canais no [youtube](https://www.youtube.com/) e coleta as seguintes informações:
 - ID do canal
