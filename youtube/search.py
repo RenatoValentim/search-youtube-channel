@@ -8,7 +8,7 @@ from youtube.youtube import YOUTUBE_URL, get_page_data
 
 def search(keyword: str) -> List[Dict]:
     url = f'{YOUTUBE_URL}/results'
-    html_page = requests.get(url, params={'search_query': keyword}).text
+    html_page = requests.get(url, params={'search_query': keyword, 'sp': 'EgIQAg%3D%3D'}).text
     data = get_page_data(html_page)
     contents = data['contents']['twoColumnSearchResultsRenderer']['primaryContents'][
         'sectionListRenderer']['contents'][0]['itemSectionRenderer']['contents']

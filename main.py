@@ -33,7 +33,10 @@ def main():
             f'{ORANGE}#######################################################################')
 
     count = len(list_channels(con))
-    print(f'{WHITE}{count} armazenados no banco')
+    if count == 1:
+        print(f'{WHITE}{count} canal armazenado no banco')
+    else:
+        print(f'{WHITE}{count} canais armazenados no banco')
 
 
 if __name__ == "__main__":
